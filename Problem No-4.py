@@ -1,4 +1,3 @@
-# Write a python script to print first N odd natural numbers.
-for var in range(0,int(input("Enter the value of n to print first n odd natural numbers : ")),1):
-    print((2*var+1),end=" ")
-print()
+# Write a python script to print the first 10 multiples of N in reverse order.
+N=int(input("Enter the value of N to print first 10 multiples of N in reverse order: "))
+print ([(N*e) for e in range(10,0,-1)])
