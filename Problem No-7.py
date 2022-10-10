@@ -1,4 +1,3 @@
-# Write a python script to print first N even natural numbers in reverse order.
-for var in range((int(input("Enter the value of n to print first n even natural numbers in reverse order :"))),0,-1):
-    print((2*var),end=" ")
-print()
+# Write a python script to print first N odd natural numbers.
+n=int(input("Enter the value of N to print first N odd natural numbers: "))
+print([(2*e-1) for e in range(1,n+1,1)])
