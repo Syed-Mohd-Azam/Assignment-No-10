@@ -1,4 +1,3 @@
-# Write a python script to print first N natural numbers in reverse order.
-for var in range(int(input("Enter the value of n to print first n natural numbers in reverse order : ")),0,-1):
-    print(var, end=" ")
-print()
+# Write a python script to print first M multiples of N.
+N,M=int(input("Enter the value of N :")),int(input("How many multiples of N you want: "))
+print( [(N*e) for e in range(1,M+1,1)])
